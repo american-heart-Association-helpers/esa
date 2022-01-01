@@ -68,11 +68,11 @@ export const clearInt = new Proxy(clearInterval, {
 
 export const player: Player = {
     worlds: new QuarkHandler({ quarks: 0, bonus: 0 }),
-    coins: new Decimal("1e30000000"),
-    coinsThisPrestige: new Decimal("1e30000000"),
-    coinsThisTranscension: new Decimal("1e30000000"),
-    coinsThisReincarnation: new Decimal("1e30000000"),
-    coinsTotal: new Decimal("1e30000000"),
+    coins: new Decimal("1e300000000000000000"),
+    coinsThisPrestige: new Decimal("1e300000000000000000"),
+    coinsThisTranscension: new Decimal("1e300000000000000000"),
+    coinsThisReincarnation: new Decimal("1e300000000000000000"),
+    coinsTotal: new Decimal("1e300000000000000000"),
 
     firstOwnedCoin: 0,
     firstGeneratedCoin: new Decimal("0"),
