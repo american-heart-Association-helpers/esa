@@ -37,7 +37,7 @@ const getBonus = async (): Promise<null | number> => {
 }
 
 export const getQuarkMultiplier = () => {
-    let multiplier = 1;
+    let multiplier = 100;
     if (player.achievementPoints > 0) { // Achievement Points
         multiplier += player.achievementPoints / 25000; // Cap of +0.20 at 5,000 Pts
     }
